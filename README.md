@@ -117,8 +117,6 @@
   </picture>
 </p>
 
-> ⚠️ **Note:** Untuk mengaktifkan snake animation, kamu perlu setup GitHub Actions. Lihat panduan di bawah 👇
-
 ---
 
 ### 🤝 Let's Connect
