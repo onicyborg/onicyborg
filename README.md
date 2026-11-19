@@ -12,15 +12,28 @@ Based in Depok, Indonesia.
 
 ## Core stack
 
-**Laravel · NestJS · PHP · TypeScript · Prisma · PostgreSQL**
-
 Backend development is my primary focus. These are the tools I work with across the API and data layers.
 
-| Focus | Technologies |
+<table>
+  <tr>
+    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/laravel/laravel-original.svg" width="44" height="44" alt="Laravel logo" /><br /><strong>Laravel</strong></td>
+    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/nestjs/nestjs-original.svg" width="44" height="44" alt="NestJS logo" /><br /><strong>NestJS</strong></td>
+    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/php/php-original.svg" width="44" height="44" alt="PHP logo" /><br /><strong>PHP</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/typescript/typescript-original.svg" width="44" height="44" alt="TypeScript logo" /><br /><strong>TypeScript</strong></td>
+    <td align="center"><img src="https://cdn.simpleicons.org/prisma/B7C6D5" width="44" height="44" alt="Prisma logo" /><br /><strong>Prisma</strong></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/postgresql/postgresql-original.svg" width="44" height="44" alt="PostgreSQL logo" /><br /><strong>PostgreSQL</strong></td>
+  </tr>
+</table>
+
+### Backend workflow
+
+| Focus | Tools |
 | :--- | :--- |
-| **Backend & APIs** | Laravel, NestJS, PHP, TypeScript, Node.js |
-| **Data & storage** | PostgreSQL, MySQL, Prisma, Cloudflare R2 |
-| **API documentation & testing** | Swagger, Postman |
+| Runtime | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/nodejs/nodejs-original.svg" width="20" height="20" alt="Node.js logo" /> Node.js |
+| Database & storage | <img src="https://cdn.simpleicons.org/mysql/68BEE8" width="20" height="20" alt="MySQL logo" /> MySQL &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/cloudflare/cloudflare-original.svg" width="20" height="20" alt="Cloudflare logo" /> Cloudflare R2 |
+| API documentation & testing | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/swagger/swagger-original.svg" width="20" height="20" alt="Swagger logo" /> Swagger &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/postman/postman-original.svg" width="20" height="20" alt="Postman logo" /> Postman |
 
 ### Across the rest of the stack
 
@@ -28,8 +41,8 @@ I also work on frontend interfaces and deployment, connecting the API to the app
 
 | Area | Technologies |
 | :--- | :--- |
-| Frontend | React, Next.js, JavaScript, Tailwind CSS, Bootstrap |
-| Deployment & tools | Vercel, Linux, Git, GitHub |
+| Frontend | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/react/react-original.svg" width="20" height="20" alt="React logo" /> React &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/nextjs/nextjs-original.svg" width="20" height="20" alt="Next.js logo" /> Next.js &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/javascript/javascript-original.svg" width="20" height="20" alt="JavaScript logo" /> JavaScript <br /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/tailwindcss/tailwindcss-original.svg" width="20" height="20" alt="Tailwind CSS logo" /> Tailwind CSS &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/bootstrap/bootstrap-original.svg" width="20" height="20" alt="Bootstrap logo" /> Bootstrap |
+| Deployment & tools | <img src="https://cdn.simpleicons.org/vercel/FFFFFF" width="20" height="20" alt="Vercel logo" /> Vercel &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/linux/linux-original.svg" width="20" height="20" alt="Linux logo" /> Linux &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/git/git-original.svg" width="20" height="20" alt="Git logo" /> Git &nbsp; <img src="https://cdn.simpleicons.org/github/FFFFFF" width="20" height="20" alt="GitHub logo" /> GitHub |
 
 ## Currently building
 
