@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="240" viewBox="0 0 840 240" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Akhmad Fauzi / onicyborg</title>
+  <desc id="description">A graphite banner with cyan API routing paths, representing a focus on backend development.</desc>
+  <style>
+    .route { stroke-dasharray: 440; stroke-dashoffset: 0; animation: connect 1.8s ease-out 1; }
+    @keyframes connect { from { stroke-dashoffset: 440; } to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .route { animation: none; } }
+  </style>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="840" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101923" />
+      <stop offset="1" stop-color="#090E15" />
+    </linearGradient>
+    <clipPath id="bounds"><rect x="0.5" y="0.5" width="839" height="239" rx="12" /></clipPath>
+  </defs>
+  <rect x="0.5" y="0.5" width="839" height="239" rx="12" fill="url(#surface)" stroke="#293744" />
+  <g clip-path="url(#bounds)">
+    <path d="M575 0V46L625 96H840M650 240V190L705 135H840M733 0V45L780 92H840" stroke="#203340" />
+    <path d="M550 240V184L610 124H840M652 0V54L690 92H840" stroke="#203340" />
+    <path class="route" d="M578 240V196L635 139H735L770 104H840" stroke="#58D8D0" stroke-width="2" />
+    <path d="M735 139V188H840" stroke="#365960" />
+    <rect x="630" y="134" width="10" height="10" rx="2" fill="#101923" stroke="#58D8D0" stroke-width="2" />
+    <rect x="730" y="134" width="10" height="10" rx="2" fill="#101923" stroke="#58D8D0" stroke-width="2" />
+    <rect x="765" y="99" width="10" height="10" rx="2" fill="#101923" stroke="#58D8D0" stroke-width="2" />
+  </g>
+  <text x="40" y="60" fill="#58D8D0" font-family="ui-monospace, 'DejaVu Sans Mono', monospace" font-size="19">onicyborg / Ace</text>
+  <text x="36" y="132" fill="#F0F6FC" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700" letter-spacing="-2">Akhmad Fauzi</text>
+  <text x="40" y="181" fill="#B7C6D5" font-family="Arial, Helvetica, sans-serif" font-size="21">Backend architecture &amp; REST APIs</text>
+  <path d="M40 211H180" stroke="#58D8D0" stroke-width="2" />
+</svg>
