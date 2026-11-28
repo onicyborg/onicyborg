@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 16" fill="none" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
+<style>.signal{stroke-dasharray:2 98;animation:travel 9s linear infinite}@keyframes travel{to{stroke-dashoffset:-100}}@media(prefers-reduced-motion:reduce){*{animation:none!important}.sub{opacity:0}.first{opacity:1}}</style><path d="M2 8H1198" stroke="#abcbd4"/><path class="signal" d="M2 8H1198" pathLength="100" stroke="#0e7490" stroke-linecap="round" stroke-width="3"/>
+</svg>

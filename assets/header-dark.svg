@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" fill="none" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
+  <title>Akhmad Fauzi · Backend architecture &amp; REST APIs</title>
+  <defs>
+    <linearGradient id="bg"><stop stop-color="#050a0f"/><stop offset="1" stop-color="#07131a"/></linearGradient>
+    <linearGradient id="scan"><stop stop-color="#22d3ee" stop-opacity="0"/><stop offset=".8" stop-color="#22d3ee"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#22d3ee"/></pattern>
+    <clipPath id="edge"><rect x="1" y="1" width="1198" height="358" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .grid{animation:grid 30s linear infinite}@keyframes grid{to{transform:translate(36px,36px)}}
+    .pulse{stroke-dasharray:4 96;animation:travel var(--speed,6s) linear var(--delay,0s) infinite}@keyframes travel{to{stroke-dashoffset:-100}}
+    .blink{animation:blink 2.4s ease-in-out infinite alternate}@keyframes blink{to{opacity:.4}}
+    .scan{animation:scan 6s linear infinite}@keyframes scan{to{transform:translateY(360px)}}
+    .entry{animation:entry .7s ease-out}@keyframes entry{from{opacity:.55;transform:translateY(12px)}}
+    .echo{opacity:0;animation:echo 8s linear infinite}@keyframes echo{95%,99%{opacity:0}97%{opacity:.32}}
+    .sub{transform-box:fill-box;animation:type 10.8s steps(32,end) infinite;animation-delay:var(--delay,0s)}
+    @keyframes type{0%{opacity:1;clip-path:inset(0 96% 0 0)}6%,32%{opacity:1;clip-path:inset(0)}33.33%,100%{opacity:0;clip-path:inset(0)}}
+    .accent{transform-origin:48px 300px;animation:grow .8s ease-out,blink 3s ease-in-out infinite alternate}@keyframes grow{from{transform:scaleX(0)}}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important}.sub{opacity:0}.first{opacity:1}}
+  </style>
+  <rect x="1" y="1" width="1198" height="358" rx="16" fill="url(#bg)" stroke="#215062"/>
+  <g clip-path="url(#edge)">
+    <rect class="grid" x="-36" y="-36" width="1236" height="396" fill="url(#grid)" opacity=".1"/>
+    <path class="scan" d="M0 0H1200" stroke="url(#scan)" opacity=".13"/>
+    <path d="M820 365V280l54 -54h76l46 -46h220" stroke="#215062"/><path class="pulse" style="--speed:5s;--delay:-0s" d="M820 365V280l54 -54h76l46 -46h220" pathLength="100" stroke="#22d3ee" stroke-width="3"/><rect class="blink" x="870" y="222" width="8" height="8" fill="#07131a" stroke="#22d3ee"/>
+    <path d="M863 365V249l54 -54h76l46 -46h220" stroke="#215062"/><path class="pulse" style="--speed:6s;--delay:-1.3s" d="M863 365V249l54 -54h76l46 -46h220" pathLength="100" stroke="#22d3ee" stroke-width="3"/><rect class="blink" x="913" y="191" width="8" height="8" fill="#07131a" stroke="#22d3ee"/>
+    <path d="M906 365V218l54 -54h76l46 -46h220" stroke="#215062"/><path class="pulse" style="--speed:7s;--delay:-2.6s" d="M906 365V218l54 -54h76l46 -46h220" pathLength="100" stroke="#22d3ee" stroke-width="3"/><rect class="blink" x="956" y="160" width="8" height="8" fill="#07131a" stroke="#22d3ee"/>
+    <path d="M949 365V187l54 -54h76l46 -46h220" stroke="#215062"/><path class="pulse" style="--speed:8s;--delay:-3.9000000000000004s" d="M949 365V187l54 -54h76l46 -46h220" pathLength="100" stroke="#22d3ee" stroke-width="3"/><rect class="blink" x="999" y="129" width="8" height="8" fill="#07131a" stroke="#22d3ee"/>
+  </g>
+  <path d="M15 38V16h22m1126 0h22v22m0 284v22h-22M37 344H15v-22" stroke="#22d3ee" opacity=".7"/>
+  <g font-size="25" fill="#22d3ee"><text x="48" y="77">onicyborg / Ace<tspan class="blink">_</tspan></text></g>
+  <circle class="blink" cx="972" cy="62" r="5" fill="#22d3ee"/><text x="991" y="70" font-size="22" fill="#7d9aa6">Depok, ID</text>
+  <g class="entry" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="94" font-weight="700" letter-spacing="-4">
+    <text class="echo" x="46" y="190" fill="#b65c94">Akhmad Fauzi</text>
+    <text class="echo" x="50" y="190" fill="#22d3ee">Akhmad Fauzi</text>
+    <text x="48" y="190" fill="#e6f1f5">Akhmad Fauzi</text>
+  </g>
+  <text class="sub first" style="--delay:-0s" x="48" y="255" font-size="30" fill="#e6f1f5">Backend architecture &amp; REST APIs<tspan fill="#22d3ee">▏</tspan></text>
+  <text class="sub" style="--delay:-7.2s" x="48" y="255" font-size="30" fill="#e6f1f5">NestJS · Laravel · Prisma · PostgreSQL<tspan fill="#22d3ee">▏</tspan></text>
+  <text class="sub" style="--delay:-3.6s" x="48" y="255" font-size="30" fill="#e6f1f5">Clean code, clear API docs<tspan fill="#22d3ee">▏</tspan></text>
+  <path class="accent" d="M48 300H260" stroke="#22d3ee" stroke-width="3"/>
+
+</svg>
